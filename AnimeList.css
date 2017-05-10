@@ -4,15 +4,13 @@
  
 @import "https://mal-image.appspot.com/anime/Rignak/?code=%23list_surround%20table%3Anth-of-type(1n%2B4)%20tbody%3Ahover%20.animetitle%5Bhref*%3D%22%2F%5BTYPE%5D%2F%5BID%5D%22%5D%20%7Bbackground-image%3A%20url(%5BURL%5D)%3B%7D%0A"; /* Automatic cover*/
 
-@import "https://raw.githubusercontent.com/Rignak/MyAnimeList.css/master/AnimeImage.css";
-@import "https://raw.githubusercontent.com/Rignak/MyAnimeList.css/master/MalMenu.css"; /* FOR THE MENU*/
+@import "https://rawgit.com/Rignak/MyAnimeList-css/master/AnimeImage.css";
+@import "https://rawgit.com/Rignak/MyAnimeList-css/master/MalMenu.css"; /* FOR THE MENU*/
   
 body { 
 background-image: url(https://dl.dropbox.com/s/133pwiwn3mhha2s/Death%20Knight.jpg); 
 background-attachment: fixed; 
 background-size: cover; 
-}
-body {
 cursor:url(http://cur.cursors-4u.net/games/gam-3/gam243.png) 1 2, auto;
 }
 a:hover {
