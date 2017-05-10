@@ -1,38 +1,29 @@
-@import "https://fonts.googleapis.com/css?family=Lemon"; 
-@import "https://fonts.googleapis.com/css?family=Nova+Slim"; 
-@import "https://fonts.googleapis.com/css?family=Handlee"; 
-   
-@import "https://dl.dropbox.com/s/6pn00kt89jjm449/Top%20Bar%20Icon%20Style%20-%20Black.css"; /* FOR THE MENU*/
-@import "https://mal-image.appspot.com/anime/Rignak/?code=%23list_surround%20table%3Anth-of-type(1n%2B4)%20tbody%3Ahover%20.animetitle%5Bhref*%3D%22%2F%5BTYPE%5D%2F%5BID%5D%22%5D%20%7Bbackground-image%3A%20url(%5BURL%5D)%3B%7D%0A";
+@import "http://fonts.googleapis.com/css?family=Lemon"; 
+@import "http://fonts.googleapis.com/css?family=Nova+Slim"; 
+@import "http://fonts.googleapis.com/css?family=Handlee"; 
+ 
+@import "https://mal-image.appspot.com/anime/Rignak/?code=%23list_surround%20table%3Anth-of-type(1n%2B4)%20tbody%3Ahover%20.animetitle%5Bhref*%3D%22%2F%5BTYPE%5D%2F%5BID%5D%22%5D%20%7Bbackground-image%3A%20url(%5BURL%5D)%3B%7D%0A"; /* Automatic cover*/
 
-body {
+@import "https://raw.githubusercontent.com/Rignak/MyAnimeList.css/master/AnimeImage.css";
+@import "https://raw.githubusercontent.com/Rignak/MyAnimeList.css/master/MalMenu.css"; /* FOR THE MENU*/
+  
+body { 
 background-image: url(https://dl.dropbox.com/s/133pwiwn3mhha2s/Death%20Knight.jpg); 
 background-attachment: fixed; 
 background-size: cover; 
-font-weight: light; 
-background-repeat: no-repeat; 
+}
+body {
 cursor:url(http://cur.cursors-4u.net/games/gam-3/gam243.png) 1 2, auto;
 }
-
 a:hover {
 cursor: url(http://www.hiveworkshop.com/forums/attachments/world-editor-help-zone-98/2323d1171206607-reskin-wow-cursor-arrow.png) 1 2, auto;
 }
-
-a { 
-text-decoration:none; 
-} 
-
-a:visited { 
-text-decoration:none; 
-} 
-
-a:hover, a:visited:hover { 
-color:#A6A6C7; 
-text-decoration:none; 
-} 
   
-/* HEADER COLOR AND FONT 
-These codes control the main headers' fonts and colors. Every header is above each part of your list (they say things like Currently Watching, Completed, Dropped, etc). */
+/* 
+HEADER COLOR AND FONT 
+These codes control the main headers' fonts and colors. Every header is above each part of your list (they say things like Currently Watching, Completed, Dropped, etc). 
+*/
+  
 .header_title { 
 background-color: rgba(14, 18, 29, 0.500); 
 color: #FFFFFF; 
@@ -44,14 +35,22 @@ text-align: center;
 text-shadow: 3px -1px 5px #0C0C0C; 
 } 
   
-/* SUB-HEADERS BACKGROUND COLOR COLOR 
-Below each main header is the sub-header which says Score, Episodes, Tags, etc. */
+  
+/* 
+SUB-HEADERS BACKGROUND COLOR COLOR 
+Below each main header is the sub-header which says Score, Episodes, Tags, etc. 
+*/
+  
 .table_header { 
 background-color: rgba(14, 18, 29, 0.500); 
 } 
   
-/* ANIME/MANGA TITLE FONTS 
-This is the type and color of the anime/manga titles on your list, like Bleach, Vampire Knight, etc. */
+  
+/* 
+ANIME/MANGA TITLE FONTS 
+This is the type and color of the anime/manga titles on your list, like Bleach, Vampire Knight, etc. 
+*/
+  
 .animetitle, .animetitle:visited { 
 color:white; 
 font-family:  'Nova Slim' cursive; 
@@ -65,8 +64,12 @@ font-family:  'Nova Slim' cursive;
 font-size:12px; 
 } 
   
-/* LIST FONTS 
-This is the type and color for more of the numbers, links, and words on the list itself! */
+  
+/* 
+LIST FONTS 
+This is the type and color for more of the numbers, links, and words on the list itself! 
+*/
+  
 .td1, .td2, a, a:visited, .category_totals, .table_header, #grand_totals, #copyright { 
 color:white; 
 font-size:12px; 
@@ -74,22 +77,45 @@ font-family:  'Nova Slim' cursive;
 text-shadow: 4px -1px 5px #0C0C0C; 
 } 
   
-/* LIST WIDTH 
-Use this to increase the width of your list!important */
+/* 
+LIST WIDTH 
+Use this to increase the width of your list! 
+*/
+  
 #list_surround { 
 margin: -0px auto 0; 
 width:950px; 
 } 
   
-/* LIST POSITION 
-Change "left" to "right" to switch the list side, or vice versa. */
+  
+/* 
+LIST POSITION 
+Change "left" to "right" to switch the list side, or vice versa. 
+*/
 #list_surround { 
 position: relative; 
 } 
   
 /*OTHER CODES 
-Important codes for the layout's setup. Please don't mess with these unless you know what you're doing.*/ 
-
+Important codes for the layout's setup. Please don't mess with these unless you know what you're doing.
+*/
+  
+  
+body { 
+font-weight: light; 
+background-repeat: no-repeat; 
+background-color: #FFFFFF; 
+} 
+a { 
+text-decoration:none; 
+} 
+a:visited { 
+text-decoration:none; 
+} 
+a:hover, a:visited:hover { 
+color:#A6A6C7; 
+text-decoration:none; 
+} 
 .category_totals, 
 .td1, 
 .td2, 
@@ -109,7 +135,7 @@ transition: all .8s ease .1s;/* CSS3 reference */
  font-weight: bold;} 
 td:nth-of-type(3){ 
  font-weight: bold;} 
-td:nth-of-type(6) { 
+td:nth-of-type(5) { 
  font-weight: bold;} 
 #grand_totals a, 
 #copyright a { 
@@ -119,7 +145,7 @@ transition: all .8s ease .1s;/* CSS3 reference */
 -moz-transition: all .8s ease .1s; /* for Firefox compatibility */
 -webkit-transition: all .8s ease .1s; /* for Chrome, Safari compatibility */
 } 
- 
+
 .category_totals:HOVER, 
 .td1:HOVER, 
 .td2:HOVER, 
@@ -127,20 +153,17 @@ transition: all .8s ease .1s;/* CSS3 reference */
 #copyright:HOVER {background-color:rgba(14, 18, 29, 0.450); 
 border-width:0; 
 } 
-
 #copyright { 
 margin-bottom: 30px !important; 
 border-radius: 20px; 
 padding: 10px; 
 } 
-
 .status_selected { 
 background-color:black; 
 padding:2px; 
 color:white; 
 text-decoration: blink; 
 } 
-
 .status_not_selected { 
 background-color:black; 
 padding:2px; 
@@ -152,7 +175,6 @@ color:blue;
 .status_not_selected a{ 
 color:white; 
 } 
-
 .thickbox { 
 color:cyan; 
 font-family:fantasy; 
@@ -161,7 +183,6 @@ font-size:15px;
 .header_title { 
 padding:2px; 
 } 
-
 .table_header { 
 border-width:0; 
 font-weight:bold; 
@@ -172,46 +193,45 @@ border-radius: 0px 0px 20px 20px;
 height: 40px; 
 text-align: center; 
 }
+//-----------------------------------------------------------------------------
+// Tag Area
 
-/*Tag Area*/
 span[id*="tagLinks"] a {
-background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-left: 20px !important;
-position: relative !important;
-text-decoration: none !important;
-top: 160px;
-font-size: 11px ;
-color: white;
+font-size: 13px !important;
+color: white !important;
 font-family: Nova Slim;}
 
 span[id*="tagLinks"] {
-width: 40%;
+width: 40% !important;
 }
 
-.table_header:nth-of-type(6) {
+//----------
+.table_header:nth-of-type(5) {
 display: none;
 }
 
-td:nth-of-type(6) div a {
+td:nth-of-type(5)a {
 display: none;
 }
+//------------
 
-.td1:nth-of-type(6) a, .td2:nth-of-type(6) a {
-background-color: rgba(0, 0, 0, 0);
+.td1:nth-of-type(5) a, .td2:nth-of-type(5) a {
+background-color: rgba(0, 0, 0, 0) !important;
 position: absolute;
 }
 
-.table_header:nth-of-type(6) {
-width: 1px;
-font-size: 0;
+.table_header:nth-of-type(5) {
+width: 1px !important;
+font-size: 0 !important;
 }
 
-.td1:nth-of-type(6), .td2:nth-of-type(6) {
+.td1:nth-of-type(5), .td2:nth-of-type(5) {
 display: none;
-width: 1px;
+width: 1px !important;
 }
 
 span[id*="tagLinks"] {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 color: rgba(0, 0, 0, 0);
 font-size: 13px !important;
 left: 250px !important;
@@ -219,60 +239,13 @@ margin-top: 10px !important;
 position: absolute !important;
 }
 
-/*Cover area*/
+span[id*="tagLinks"] a {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+left: 20px !important;
+position: relative !important;
+text-decoration: none !important;
+top: 160px;
+}
 
-tbody:hover .td1:nth-of-type(6), tbody:hover .td2:nth-of-type(6) {
+tbody:hover .td1:nth-of-type(5), tbody:hover .td2:nth-of-type(5) {
 display: block;}
-
-#list_surround table:nth-of-type(1n+4) tbody .animetitle{
-	background-size: 0px 0px;}
-#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle
-{
-	background-size: cover;
-    display: inline-block !important;
-    visibility:visible;
-    width: 225px;
-    height: 320px;
-    line-height: 320px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 13px 2px rgb(13, 13, 13) inset;
-	z-index: 1000;
-}
-
-#list_surround table:nth-of-type(n+4) tbody:hover .animetitle span { 
-    display: inline-block;
-    position: relative;
-    top: 20%;
-    line-height: 20px;
-    left: 230px;
-    padding: 5px;
-    background: rgba(190, 52, 250, 0.400);
-    border-radius: 0.5em;
-    box-shadow: 0px 0px 10px 1px #EFEDED inset;
-    transform:rotate(6deg);
-    -o-transform:rotate(6deg);
-    -ms-transform:rotate(6deg);
-    -moz-transform:rotate(6deg);
-    -webkit-transform:rotate(6deg);
-}
-
-#list_surround table:nth-of-type(n+4) tbody:hover .animetitle + small { 
-    transform:rotate(-20deg);
-    -o-transform:rotate(-20deg);
-    -ms-transform:rotate(-20deg);
-    -moz-transform:rotate(-20deg);
-    -webkit-transform:rotate(-20deg);
-
-    background: #FFCC00;
-    border-radius: 0.5em;
-    box-shadow: 0px 0px 6px 1px #0000AA inset;
-    color: #FFFFFF;
-    display: inline-block;
-    font-size: 12px;
-    left: -227px;
-    padding: 5px;
-    position: relative;
-    text-shadow: 0px 0px 5px #000000 !important;
-    top: 15px;
-    z-index: 100;
-}
