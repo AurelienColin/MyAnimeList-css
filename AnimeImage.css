@@ -1,0 +1,69 @@
+#list_surround table:nth-of-type(1n+4) tbody .animetitle
+{
+    height: 20px;
+    line-height: 20px;
+
+
+}
+
+#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle
+{
+    display: inline-block !important;
+    width: 225px;
+    background: transparent no-repeat 50% 50% /cover;
+    height: 320px;
+    line-height: 320px;
+/*    padding-left: 230px !important;
+    margin-right: 60px;*/
+    width: 225px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px 2px rgb(13, 13, 13) inset;
+z-index: 1000;
+}
+
+.animetitle + small
+{
+    display: inline-block;
+}
+
+#list_surround table:nth-of-type(n+4) tbody .animetitle span{
+
+}
+
+#list_surround table:nth-of-type(n+4) tbody:hover .animetitle span { 
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    line-height: 20px;
+    left: 230px;
+    padding: 5px;
+    background: rgba(190, 52, 250, 0.400);
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 10px 1px #EFEDED inset;
+    transform:rotate(6deg);
+    -o-transform:rotate(6deg);
+    -ms-transform:rotate(6deg);
+    -moz-transform:rotate(6deg);
+    -webkit-transform:rotate(6deg);
+}
+
+#list_surround table:nth-of-type(n+4) tbody:hover .animetitle + small { 
+    transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+    -moz-transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+
+    background: #FFCC00;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 6px 1px #0000AA inset;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    left: -227px;
+    padding: 5px;
+    position: relative;
+    text-shadow: 0px 0px 5px #000000 !important;
+    top: 15px;
+    z-index: 100;
+}
