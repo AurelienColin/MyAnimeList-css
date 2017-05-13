@@ -1,34 +1,22 @@
-#list_surround table:nth-of-type(1n+4) tbody .animetitle
-{
+#list_surround table:nth-of-type(1n+4) tbody .animetitle {
     height: 20px;
-    line-height: 20px;
+    line-height: 20px;}
 
-
-}
-
-#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle
-{
+#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle{
     display: inline-block !important;
     width: 225px;
     background: transparent no-repeat 50% 50% /cover;
     height: 320px;
     line-height: 320px;
-/*    padding-left: 230px !important;
-    margin-right: 60px;*/
     width: 225px;
     border-radius: 15px;
     box-shadow: 0px 0px 13px 2px rgb(13, 13, 13) inset;
-z-index: 1000;
-}
+z-index: 1000;}
 
-.animetitle + small
-{
-    display: inline-block;
-}
+.animetitle + small{
+    display: inline-block;}
 
-#list_surround table:nth-of-type(n+4) tbody .animetitle span{
-
-}
+#list_surround table:nth-of-type(n+4) tbody .animetitle span{}
 
 #list_surround table:nth-of-type(n+4) tbody:hover .animetitle span { 
     display: inline-block;
