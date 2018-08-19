@@ -1,7 +1,7 @@
 @import "http://fonts.googleapis.com/css?family=Nova+Slim"; 
 @import "http://fonts.googleapis.com/css?family=Handlee"; 
  
-@\import "https://malscraper.azurewebsites.net/covers/anime/Rignak/presets/animetitle";
+@import "https://rawgit.com/Rignak/MyAnimeList-css/master/animetitle.css";
 @import "https://rawgit.com/Rignak/MyAnimeList-css/master/AnimeImage.css";
 @import "https://rawgit.com/Rignak/MyAnimeList-css/master/MalMenu.css";
   
