@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Handlee"; 
    
 @import "https://rawgit.com/Rignak/MyAnimeList-css/master/MalMenu.css";
-@import "https://mal-image.appspot.com/manga/Rignak/?code=%23list_surround%20table%3Anth-of-type(1n%2B4)%20tbody%3Ahover%20.animetitle%5Bhref*%3D%22%2F%5BTYPE%5D%2F%5BID%5D%22%5D%20%7Bbackground-image%3A%20url(%5BURL%5D)%3B%7D%0A";
+@import "https://malscraper.azurewebsites.net/covers/manga/Rignak/presets/animetitle";
 
 body {
 background-image: url(https://dl.dropbox.com/s/133pwiwn3mhha2s/Death%20Knight.jpg); 
