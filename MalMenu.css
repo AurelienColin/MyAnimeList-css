@@ -115,7 +115,6 @@ transition: all 0.4s ease 0s;
     display: block;
     font: bold 13px/17px 'Arial',sans-serif !important;
     padding: 0 4px 4px;
-    text-shadow: 0 1px 1px #FFFFFF;
 }
 #mal_cs_otherlinks strong a {
     background: none repeat scroll 0 0 transparent !important;
@@ -125,7 +124,6 @@ transition: all 0.4s ease 0s;
     font: bold 13px/17px 'Arial',sans-serif !important;
     margin: 0;
     padding: 0;
-    text-shadow: 0 1px 1px #FFFFFF;
 }
 #mal_cs_powered a {
     background-color: rgba(255, 255, 255, 0.6) !important;

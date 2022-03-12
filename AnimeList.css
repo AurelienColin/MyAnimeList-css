@@ -36,8 +36,7 @@ font-family: 'Handle', cursive;
 font-size:24px; 
 border-radius: 20px 20px 0px 0px; 
 font-weight: 700; 
-text-align: center; 
-text-shadow: 3px -1px 5px #0C0C0C; 
+text-align: center;  
 } 
   
 /* Sub-header : Name/Score/Type/Progress...*/
@@ -50,7 +49,6 @@ background-color: rgba(14, 18, 29, 0.500);
 color:white; 
 font-family:  'Nova Slim' cursive; 
 font-size:16px; 
-text-shadow: 4px -1px 5px #0C0C0C; 
 } 
 .animetitle + small { 
 color:#B6B6C5; 
@@ -63,7 +61,6 @@ font-size:12px;
 color:white; 
 font-size:12px; 
 font-family:  'Nova Slim' cursive; 
-text-shadow: 4px -1px 5px #0C0C0C; 
 } 
   
 
@@ -252,7 +249,6 @@ display: block;}
     left: -227px;
     padding: 5px;
     position: relative;
-    text-shadow: 0px 0px 5px #000000 !important;
     top: 15px;
     z-index: 100;
 }
